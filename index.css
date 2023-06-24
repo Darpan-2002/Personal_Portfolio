@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Belanosima:wght@700&family=Roboto+Condensed:wght@700&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -79,7 +80,7 @@ nav ul li a:hover{
     display: flex;
     justify-content: space-around;
     margin: 80px 0;
-    align-items:start;
+    /* align-items:start; */
 }
 
 .secondSection > div{
@@ -94,6 +95,18 @@ nav ul li a:hover{
 
 .rightSection2{
     display: flex;
-    margin: 20px 0;
+    margin: 120px 0;
     align-items: center;
+    font-size: 1.2rem;
+    height:max-content;
+}
+
+.rightSection2 div{
+    height: 100px;
+    margin-bottom: 35px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.hello{
+    /* font-size: 2rem; */
 }
