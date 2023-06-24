@@ -72,3 +72,28 @@ nav ul li a:hover{
     width: 120%;
     margin: 50px 0px;
 }
+
+.secondSection{
+    background: white;
+    color: black;
+    display: flex;
+    justify-content: space-around;
+    margin: 80px 0;
+    align-items:start;
+}
+
+.secondSection > div{
+    width: 50%;
+}
+
+.leftSection2 img{
+    width: 80%;
+    margin: 20px 20px 20px 60px;
+    border-radius: 30px;
+}
+
+.rightSection2{
+    display: flex;
+    margin: 20px 0;
+    align-items: center;
+}
