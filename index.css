@@ -4,6 +4,10 @@
     padding: 0;
 }
 
+*{
+    scroll-behavior: smooth;
+}
+
 body{
     background-color: rgb(3, 3, 63);
     color: white;
@@ -70,8 +74,10 @@ nav ul li a:hover{
     background-color: red;
 } */
 .rightSection img{
+    border-radius: 30px;
     width: 120%;
-    margin: 50px 0px;
+    /* margin: 50px 0px; */
+    margin: 20px 20px 20px -130px;
 }
 
 .secondSection{
@@ -107,6 +113,15 @@ nav ul li a:hover{
     font-family: 'Roboto Condensed', sans-serif;
 }
 
-.hello{
-    /* font-size: 2rem; */
+.thirdSection{
+    /* display: flex; */
+    justify-content: left;
+    height: 100px;
+}
+
+.project{
+    /* background: black; */
+    margin-left: 50px;
+    margin-top: 0px;
+    font-size: 2rem;
 }
