@@ -115,13 +115,56 @@ nav ul li a:hover{
 
 .thirdSection{
     /* display: flex; */
+    margin-top: -75px;
+    background-color: rgb(201, 219, 226);
     justify-content: left;
-    height: 100px;
+    height: 350px;
 }
 
-.project{
-    /* background: black; */
+.project1{
     margin-left: 50px;
-    margin-top: 0px;
-    font-size: 2rem;
+    margin-top: -30px;
+    font-size: 1.5rem;
+    text-align: center;
+    color: black;
+}
+
+.project2{
+    margin-top: 30px;
+    display: flex;
+    color: rgb(43, 41, 0);
+    font-size: 1.5rem;
+    margin: 20px 20px 20px 60px;
+}
+
+.description{
+    font-size: 1.3rem;
+    list-style-type: none;
+}
+
+.linkGit{
+    background-color: black;
+    border: 2px solid white;
+    color: green;
+    padding: 5px 10px;
+    text-align: center;
+    display: inline-block;
+    font-size: 20px;
+    margin: 10px 0px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.linkGit1{
+    background-color: black;
+    border: 2px solid white;
+    color: green;
+    padding: 5px 10px;
+    text-align: center;
+    display: inline-block;
+    font-size: 20px;
+    margin: 10px 0px;
+    margin-left: 20px;
+    cursor: pointer;
+    border-radius: 10px;
 }
