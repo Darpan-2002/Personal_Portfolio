@@ -22,6 +22,10 @@ nav{
     justify-content: space-around;
     align-items: center;
     height: 60px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
 }
 
 nav ul{
@@ -48,6 +52,10 @@ nav ul li a:hover{
     position: fixed;
     top: 0;
     width: 100%;
+}
+
+.main{
+    margin-top: -10px;
 }
 
 .left{
@@ -154,7 +162,6 @@ nav ul li a:hover{
 .linkGit{
     background-color: black;
     border: 2px solid white;
-    color: green;
     padding: 5px 10px;
     text-align: center;
     display: inline-block;
@@ -162,6 +169,11 @@ nav ul li a:hover{
     margin: 10px 0px;
     cursor: pointer;
     border-radius: 10px;
+}
+
+.linkGit a{
+    color: green;
+    text-decoration: none;
 }
 
 .linkGit1{
@@ -176,6 +188,11 @@ nav ul li a:hover{
     margin-left: 20px;
     cursor: pointer;
     border-radius: 10px;
+}
+
+.linkGit1 a{
+    color: green;
+    text-decoration: none;
 }
 
 .fourthSection{
