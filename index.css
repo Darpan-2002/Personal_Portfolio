@@ -196,16 +196,20 @@ nav ul li a:hover{
 }
 
 .fourthSection{
-    height: 350px;
+    margin-top: -170px;
+    background-color: black;
+    height: 530px;
 }
 
 .leftSection4{
-    font-size: 3rem;
+    font-size: 2.5rem;
     margin-top: 175px;
     margin-left: 70px;
+    color: aqua;
 }
 
 .rightSection4{
-    font-size:xx-large;
-    margin-left: 1000px;
+    font-size: 1.2rem;
+    margin-left: 500px;
+    margin-top: -30px;
 }
